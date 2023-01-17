@@ -6,8 +6,9 @@ import Home from './Home';
 import CreatePost from './CreatePost';
 
 function App() {
+  
   return (
-      <div className="App">
+    <div className="container">
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home/>}/>
